@@ -1,1 +1,1 @@
-# dev opsreadme
+Shell basics tasks
