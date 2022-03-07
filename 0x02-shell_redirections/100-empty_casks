@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -printf "%f\n"
+cut -c1 | tr -d '\n' | sort
