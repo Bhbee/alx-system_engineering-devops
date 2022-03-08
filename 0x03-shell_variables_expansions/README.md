@@ -1,53 +1,53 @@
-# Shell Variables
-![shell_variables](https://images.slideplayer.com/28/9353848/slides/slide_10.jpg)
-![more_shell_variables](http://linuxmasterswiki.com/wp-content/uploads/2017/04/unixlinux-basic-commands-and-shell-script-49-728.jpg)
+0-Create a script that creates an alias.
+Name: ls
+Value: rm *
 
-## What I should learn from this project
+1-Create a script that prints hello user, where user is the current Linux user.
 
-##### Shell initialization files
+2-Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
-* What are the /etc/profile file and the /etc/profile.d directory
+3-Create a script that counts the number of directories in the PATH.
 
-* What is the ~/.bashrc file
+4-Create a script that lists environment variables.
 
-##### Variables
+5-Create a script that lists all local variables and environment variables, and functions.
 
-* What is the difference between a local and a global variable
+6-Create a script that creates a new local variable.
+Name: BEST
+Value: School
 
-* What is a reserved variable
+7-Create a script that creates a new global variable.
+Name: BEST
+Value: School
 
-* How to create, update and delete shell variables
+8-Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
-* What are the roles are the following reserved variables: HOME, PATH, PS1
+9-Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+POWER and DIVIDE are environment variables
 
-* What are special parameters
+10-Write a script that displays the result of BREATH to the power LOVE
+BREATH and LOVE are environment variables
 
-* What is the special parameter $??
+11-Write a script that converts a number from base 2 to base 10.
+The number in base 2 is stored in the environment variable BINARY
+The script should display the number in base 10, followed by a new line
 
-##### Expansions
+12-Create a script that prints all possible combinations of two letters, except oo.
 
-* What is expansion and how to use them
+13-Write a script that prints a number with two decimal places.
+The number will be stored in the environment variable NUM.
 
-* What is the difference between single and double quotes and how to use them properly
+14-Write a script that converts a number from base 10 to base 16.
+The number in base 10 is stored in the environment variable DECIMAL
 
-* How to do command substitution with $() and backticks
+15-Write a script that encodes and decodes text using the rot13 encryption.
 
-##### Expansions & Shell Arithmetic
+16-Write a script that prints every other line from the input, starting with the first line.
 
-* How to perform arithmetic operations with the shell
+17-Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
 
-##### The alias Command
+WATER is in base water
+STIR is in base stir.
+The result should be in base bestchol
 
-* How to create an alias
 
-* How to list aliases
-
-* How to temporarily disable an alias
-
-##### Other help pages
-
-How to execute commands from a file in the current shell
-
-##### And
-
-* What happens when you type $ ls -l *.txt
