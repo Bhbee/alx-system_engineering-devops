@@ -1,24 +1,27 @@
 0. Script that prints "Hello, World" to standard output.
 1.Script that display a confused smiley.
-2.Script that displays the content of file.
-3.Script that displays the content of two files.
-4.Script that displays the last 10 lines of file.
-5.Script that displays the first 10 lines of file.
-6.Script that displays the third line of the file.
-7.Script that creates a file using escaped characters containing text.
-8.Script that writes into file the results of the command ls-la. If the file exists, it is rewritten. It is does not exist, it is created.
-9.Script that duplicates the last line of a file.
-10.Script that deletes all the regular files with .js extension that are in the current directory and subfolders.
-11.Script that counts the number of directories and sub-directories in current directory.
-12.Script that displays the 10 newest files in current directory.
-13.Script that takes input and prints out the unique words.
-14.Script that displays lines containing a pattern of text in a file.
-15.Script that displays the number of lines that contain the pattern of text in the file.
-16.Script that displays lines containing the pattern text and 3 lines after them in the file.
-17.Script that displays all the lines in the file that do not contain pettern of text.
-18.Script that displays all lines in file starting with a letter.
-19.Script that replaces all given characters from input with different given characters.
-20.Script that removes all given letters fron input.
-21.Script that reverses its input.
-22.Script that displays all users and their home directories, sorted by user.
-
+2.Script that display the content of the /etc/passwd file.
+3.Script that display the content of /etc/passwd and /etc/hosts
+4.Script that display the last 10 lines of /etc/passwd
+5.Script that display the first 10 lines of /etc/passwd
+6.Script that displays the third line of the file iacta.
+7.Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+8.Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+9.Write a script that duplicates the last line of the file iacta
+10.Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+11.Write a script that counts the number of directories and sub-directories in the current directory.
+12.Create a script that displays the 10 newest files in the current directory.
+13.Create a script that takes a list of words as input and prints only words that appear exactly once.
+14.Script that display lines containing the pattern “root” from the file /etc/passwd
+15.Script that display the number of lines that contain the pattern “bin” in the file /etc/passwd
+16.Script that disisplay lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+17.Script that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+18.Script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
+19.Script that replace all characters A and c from input to Z and e respectively.
+20.Create a script that removes all letters c and C from input.
+21.Write a script that reverse its input.
+22.Write a script that displays all users and their home directories, sorted by users.
+23.Write a command that finds all empty files and directories in the current directory and all sub-directories.
+24.Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+25.An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. Create a script that decodes acrostics that use the first letter of each line.
+26.Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
